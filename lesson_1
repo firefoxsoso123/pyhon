@@ -1,0 +1,5 @@
+lines = ["Hello Word\n", "Hello Work\n", "Hello World\n"]
+with open("hello2.txt", "a") as file:
+    file.writelines(lines)
+     
+print("Список строк записан в файл")
