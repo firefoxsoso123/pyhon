@@ -3,3 +3,7 @@ with open("hello2.txt", "a") as file:
     file.writelines(lines)
      
 print("Список строк записан в файл")
+
+arr = [x for x in range(10)]
+
+arr = [x*x for x in arr]
